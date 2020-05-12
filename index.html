@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jobin Jose</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/typed.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="text/javascript" src="js/jquery.ripples-min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <a href="index.html" class="logo">
+                    <img src="./images/signs.png" alt="">
+                </a>
+                <ul class="nav-list" id="navanimate">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                       <a href="#" class="nav-link">About</a>
+                   </li>
+                   <li class="nav-item">
+                       <a href="#" class="nav-link">Skills</a>
+                   </li>
+                   <li class="nav-item">
+                       <a href="#" class="nav-link">Certifications</a>
+                   </li> 
+                   <li class="nav-item">
+                       <a href="#" class="nav-link">Contact</a>
+                   </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Header ends -->
+   
+    <section class="main slider" id="main slider">
+        <div class="container">
+                <div class="main-heading">
+                    <h2 class="sub-headline animate-left">
+                        I am Jobin Jose
+                    </h2>
+                    <h1 class="headline-text"></h1>
+                    <h3 class="main-connect">Connect with Me</h3>
+                </div>
+        </div>
+    </section> 
+    <script>
+    var typed = new Typed('.headline-text', {
+    strings: ['I^700 am a^700 Web^700 Developer^700', 'I^700 am a^700 Flutter^700 Developer^700'],
+    loop:true
+  });
+
+  var x = document.getElementsByClassName('open');
+  if(!X){
+    var navanimation = document.getElementsByClassName('nav-list');
+    navanimation.classList.add("animate-bottom");
+  }
+  else if(x){
+    var navanimation = document.getElementsByClassName('nav-list');
+    navanimation.classList.remove("animate-bottom");
+  }
+    </script>
+<script rel="text/stylesheet" src="js/main.js"></script>
+</body>
+</html>
